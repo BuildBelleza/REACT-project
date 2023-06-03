@@ -3,9 +3,8 @@
 }
 
 :root {
-  font-family: KOMIKABS;
+  font-family: CoffeeCake;
   background-color: transparent;
-  font-synthesis: small-caps;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,8 +12,8 @@
 }
 
 @font-face {
-  font-family: 'KOMIKABS';
-  src: url('KOMIKABS.ttf') format('truetype');
+  font-family: 'CoffeeCake';
+  src: url('CoffeCake.ttf') format('truetype');
 }
 
 a {
@@ -74,8 +73,7 @@ button:focus-visible {
     font-size: 72px;
     color: red;
     background-color: transparent;
-    font-weight: bolder;
-    font-variant: small-caps;
+ 
   }
 
   header {
