@@ -1,9 +1,11 @@
 import React from 'react';
 
+
 const Landing = () => {
+  
   return (
-    <h1>Landing</h1>
-  )
+    <div> I am Landing </div>
+  );
 };
 
 export default Landing;

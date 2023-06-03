@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import data from '../mocks/navs.json';
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="y-navs y-wrap">{navs}</div>
+      <div className="y-navs">{navs}</div>
     </header>
   );
 };

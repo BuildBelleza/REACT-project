@@ -1,22 +1,28 @@
 import { useState } from 'react'
 import './App.css' 
+import { fetchJobs } from './features/jobsSlice'
+import Header from './sectioning/header'
+import Main from './sectioning/main'
+import Footer from './sectioning/footer'
+
+
+// Anything on this file will show throughout the entire page set.
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [jobs, setJobs] = useState(0)
 
   return (
     <>
+      <Header />
+      <Main />
+      <Footer />
       <div>
         
       </div>
-      <h1>Track This!</h1>
+      
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        
+        
       </div>
       
     </>
