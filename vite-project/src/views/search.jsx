@@ -5,7 +5,7 @@ import React, { StrictMode } from 'react';
 const Search = () => {
   return (
     <>
-      <h1>Search Here:</h1>
+      
       <br />
     <form action="/search" method="get">
       
@@ -17,12 +17,16 @@ const Search = () => {
         placeholder="Search jobs"
         name="s"
         />
-        <br />
-        <button className='sbtn' type="submit">Search</button>
+        <button className='sbtn' type="submit">Get It!</button>
         
         
       </form>
-
+      <br /><br />
+      <p>
+        Search Criteria:
+        <br /><br />
+          Search by job title, company name, or location. 
+</p>
     </>
   );
 };

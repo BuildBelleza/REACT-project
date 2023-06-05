@@ -7,7 +7,7 @@ const Landing = () => {
     
       <>
       <div>
-    <p className='landingPitch'> Track This is the job hunters "personal assistant" of sorts, helping you discover opportunities, track applications, communicate directly with hiring managers, and much much more.</p>
+    <p className='landingPitch'> Track This is the job hunters "personal assistant" of sorts, helping you discover opportunities, track applications, communicate directly with hiring managers, and much much more.</p><br /><br />
      
       <ul id='featureList'>
         <li className='feature1'>  Create a favorites list of your desired companies to work for and/or open positions posted on job boards that spark your interest.</li>
@@ -19,8 +19,11 @@ const Landing = () => {
         <br />
         </ul>
         </div>
-    <form className='loginForm'>
-        <button className='lbtn' type="submit">Login</button>
+      <form className='loginForm'>
+        Have an account already?
+        <button className='lbtn' type="submit">Login</button> 
+        <br /><br />
+        Need an account?
         <button className='loutbtn' type="submit">Register</button>
     </form>
     </>
