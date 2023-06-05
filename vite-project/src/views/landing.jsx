@@ -16,7 +16,7 @@ const Landing = () => {
       <br />
         <li className='feature3'> You can even update the position application status for each posting applied for by updating the applied to entry status from applied, to 1st interview, 2nd interview, offer made, etc.
         </li>
-        <br />
+        
         </ul>
         </div>
       <form className='loginForm'>
@@ -25,7 +25,8 @@ const Landing = () => {
         <br /><br />
         Need an account?
         <button className='loutbtn' type="submit">Register</button>
-    </form>
+      </form>
+      <br />
     </>
   );
 };
