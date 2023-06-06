@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css' 
-import { fetchJobs } from './features/jobsSlice'
+import { fetchJobs } from './features/jobSlice'
 import Header from './sectioning/header'
 import Main from './sectioning/main'
 import Footer from './sectioning/footer'
