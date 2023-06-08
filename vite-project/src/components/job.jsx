@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import JobsList from './JobsList';
+import { useEffect, useState } from 'react';
+import JobList from './jobList';
 import axios from 'axios';
 
 export default function Parent() {
@@ -19,13 +19,9 @@ export default function Parent() {
       .catch(error => console.error(`Error: ${error}`));
   }
   return (
-    <JobsList jobs={jobs} />
+    <JobList jobs={jobs} />
   );
 }
 
-<div>
-      {jobs.map((job) => (
-        <Job key={job.id} job={job} />
-      ))}
-    </div>
+
   
