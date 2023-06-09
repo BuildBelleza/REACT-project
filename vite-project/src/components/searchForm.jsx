@@ -8,7 +8,7 @@ const searchResultsList = document.querySelector('.search-results-list');
 const searchFormHandler = async (e) => {
   e.preventDefault();
   const searchInputValue = searchInput.value;
-  const searchQuery = searchInputValue.trim(fetchJobs);
+  const searchQuery = searchInputValue.trim(ApiCall);
   if (searchQuery === '') return;
   const searchResultsData = await fetchSearchResults(searchQuery);
   renderSearchResults(searchResultsData);

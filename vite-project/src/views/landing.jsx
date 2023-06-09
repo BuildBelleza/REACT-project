@@ -19,17 +19,10 @@ const Landing = () => {
         
         </ul>
         </div>
-      <form className='loginForm'>
-        Have an account already?
-        <button className='lbtn' type="submit">Login</button> 
-        <br /><br />
-        Need an account?
-        <button className='loutbtn' type="submit">Register</button>
-      </form>
-      <br />
+      <style background-image='url("https://iili.io/H4kVS6X.jpg")'></style>
     </>
   );
 };
 
-
+"https://iili.io/H4kVS6X.jpg"
 export default Landing;

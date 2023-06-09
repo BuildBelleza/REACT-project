@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="sticky">Track This!</div>
+      <div className="y-wrap">Track This!</div>
     </footer>
   )
 };

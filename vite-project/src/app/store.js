@@ -1,11 +1,18 @@
 import { configureStore } from '@reduxjs/toolkit';
-import jobsReducer from '../components/job';
+// import jobsReducer from '../components/job';
 // import jobsFetch from '../features/jobsSlice';
 import React, { useState } from 'react';
 
 
-export default configureStore({
+
+export const store = configureStore({
   reducer: {
-    jobs: jobsReducer
+    
   },
 });
+
+
+//   reducer: {
+//     jobs: jobsReducer
+//   },
+// });
