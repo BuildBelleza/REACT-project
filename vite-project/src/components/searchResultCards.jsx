@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from '@mui/material/Card';
+import searchForm from '../components/searchForm.jsx';
 
-const SearchResultCards = ({ data }) => { 
+const SearchResultCards = ({ data }) => {
   const cards = data.map((card) => {
     return (
       <Card key={card.id}>
@@ -13,7 +14,21 @@ const SearchResultCards = ({ data }) => {
     );
   });
 
+
   return <div className="y-cards">{cards}</div>;
-}
+  // render(); {
+  //   return (
+  //     <div>
+  //       <h1>Search Results:</h1>
+  //       <div className="y-cards">{cards}</div>
+  //     </div>
+    // );
+  };
+
+// };
+
+
+
+
 
 export default SearchResultCards;
