@@ -19,10 +19,10 @@ const Landing = () => {
         
         </ul>
         </div>
-      <style background-image='url("https://iili.io/H4kVS6X.jpg")'></style>
+    
     </>
   );
 };
 
-"https://iili.io/H4kVS6X.jpg"
+
 export default Landing;

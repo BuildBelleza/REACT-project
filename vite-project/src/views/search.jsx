@@ -1,6 +1,5 @@
 import React, { StrictMode } from 'react';
-import SearchResultCards from '../components/searchResultCards';
-// import JobsList from '../components/jobList';
+
 
 
 
@@ -13,13 +12,14 @@ const Search = () => {
       
         <br />
 
-      <input
+        <input
+        className='search'
         type="text"
         id="header-search"
         placeholder="Search jobs"
         name="s"
-        />
-        <button className='sbtn' type="submit">Go get it!</button>
+        /><br />
+        <button className='search sbtn' type="submit">Go get it!</button>
         
         
       </form>
@@ -29,7 +29,7 @@ const Search = () => {
         <br /><br />
         Search by job title, company name, or location. 
 
-        <SearchResultCards />
+    
          
       </p>
       
@@ -38,6 +38,6 @@ const Search = () => {
   );
 };
 
-{/* <JobsList /> */}
+
 
 export default Search;

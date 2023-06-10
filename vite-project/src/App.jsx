@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      {/* <JobsList /> */}
+    
       <div>
         
       </div>
