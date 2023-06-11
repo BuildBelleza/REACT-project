@@ -22,13 +22,20 @@ function App() {
       <Header />
       <Main />
       <Footer />
+     
+    
+ 
+
     
       <div>
-        
+      
       </div>
       
       <div className="card">
-        
+          <Apps />
+        <SearchForm />
+        <Job />
+      <Pagination />
         
       </div>
       
