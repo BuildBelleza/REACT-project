@@ -5,7 +5,7 @@ import Job from './Job'
 import Pagination from './Pagination';
 import SearchForm from './SearchForm';
 
-function App() {
+export default function Apps() {
   const [params, setParams] = useState({})
   const [page, setPage] = useState(1)
   const { jobs, loading, error, hasNextPage } = useFetchJobs(params, page)
@@ -34,4 +34,3 @@ function App() {
   )
 }
 
-export default App;

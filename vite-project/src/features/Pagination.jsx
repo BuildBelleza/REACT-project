@@ -1,13 +1,13 @@
 import React from 'react'
 import { Pagination } from 'react-bootstrap'
 
-export default function Pagination({ page, setPage, hasNextPage }) {
+export default function Paginations({ page, setPage, hasNextPage }) {
   function adjustPage(amount) {
     setPage(prevPage => prevPage + amount)
   }
 
   return (
-    <Pagination>
+    <Paginations>
       {page !== 1 && <Pagination.Prev onClick={() => adjustPage(-1)} />}
       {page !== 1 && <Pagination.Item onClick={() => setPage(1)}>1</Pagination.Item>}
       {page > 2 && <Pagination.Ellipsis />}
@@ -15,6 +15,6 @@ export default function Pagination({ page, setPage, hasNextPage }) {
       <Pagination.Item active>{page}</Pagination.Item>
       {hasNextPage && <Pagination.Item onClick={() => adjustPage(1)}>{page + 1}</Pagination.Item>}
       {hasNextPage && <Pagination.Next onClick={() => adjustPage(1)} />}
-    </Pagination>
+    </Paginations>
   )
 }
