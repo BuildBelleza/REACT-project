@@ -1,7 +1,8 @@
 import React, { StrictMode } from 'react';
+// import { SearchForm } from './features/SearchForm';
+// import { useFetchJobs } from './features/useFetchJobs';
 
 
-<SearchForm />
 
 const Search = () => {
   return (
@@ -22,7 +23,7 @@ const Search = () => {
         /><br />
         <button className='search sbtn' type="submit">Go get it!</button>
         <br />
-        <useFetchJobs />
+        
         
       </form>
       <br /><br />
@@ -30,6 +31,9 @@ const Search = () => {
         Search Criteria:
         <br /><br />
         Search by job title, company name, or location. 
+       
+        <SearchForm />
+<useFetchJobs />
 
     
          
