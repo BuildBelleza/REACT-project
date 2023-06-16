@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react';
 // import { SearchForm } from './features/SearchForm';
 // import { useFetchJobs } from './features/useFetchJobs';
+// import { ApiCall } from './features/apiCall.jsx';
 
 
 
@@ -32,8 +33,7 @@ const Search = () => {
         <br /><br />
         Search by job title, company name, or location. 
        
-        <SearchForm />
-<useFetchJobs />
+        
 
     
          

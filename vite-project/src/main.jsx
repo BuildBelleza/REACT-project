@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 
-import store from './app/store';
+// import store from './app/store';
 import App from './App';
 
 const rootElement = document.getElementById('root');
