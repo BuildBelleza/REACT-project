@@ -32,7 +32,7 @@ function App() {
       <div className="card">
           <Apps />
         {/* <AddJob set jobsList={setJobsList} /> */}
-        {/* <ListJobs jobsList={jobsList} setJobsList={setJobsList}/>  */}
+        <ListJobs jobsList={jobsList} setJobsList={setJobsList}/> 
         
       </div>
       

@@ -31,13 +31,23 @@ const Search = () => {
       <p>
         Search Criteria:
         <br /><br />
-        Search by job title, company name, or location. 
-       
-        
-
-    
-         
+        Search by job title, company name, or location.  
       </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm">
+            <h3>Search Results</h3>
+            <p>Search results will appear here.</p>
+          </div>
+          <div className="col-sm">
+            <h3>Job Details</h3>
+            <p>Job details will appear here.</p>
+
+
+          </div>
+        </div>
+      </div>
+
       
     
     </>
